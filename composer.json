@@ -1,0 +1,23 @@
+{
+    "name": "anilkumar/makeimage",
+    "description": "",
+    "authors": [
+        {
+            "name": "Anil kumar",
+            "email": "anil2050kumar@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Anilkumar\\Makeimage\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
