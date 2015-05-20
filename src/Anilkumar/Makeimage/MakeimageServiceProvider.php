@@ -20,6 +20,7 @@ class MakeimageServiceProvider extends ServiceProvider {
 	{
 		$this->package('anilkumar/makeimage');
 		include __DIR__.'/../../routes.php';
+		$this->app->register('Intervention\Image\ImageServiceProvider');
 	}
 
 	/**
@@ -29,7 +30,8 @@ class MakeimageServiceProvider extends ServiceProvider {
 	 */
 	public function register()
 	{
-		//
+		$loader = \Illuminate\Foundation\AliasLoader::getInstance();
+    	$loader->alias('Image', 'Intervention\Image\Facades\Image');
 	}
 
 	/**
