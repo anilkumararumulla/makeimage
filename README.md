@@ -35,7 +35,7 @@ This package helps in accessing the images which are stored in storage directory
 	`ProjectName/app/storage/files/product/images/one.png`
 
 - You can access that image by replacing '/' with ':'
-	`<img src='make/image:files:product:images:one.png'>`
+	`<img src='make/image/files:product:images:one.png'>`
 
 
 ## License
