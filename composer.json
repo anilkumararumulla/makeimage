@@ -1,6 +1,9 @@
 {
     "name": "anilkumar/makeimage",
-    "description": "",
+    "description": "access image which is saved in storage",
+    "keywords": ["storage", "access", "image"],
+    "homepage": "https://github.com/anil2050kumar/makeimage",
+    "license": "MIT",
     "authors": [
         {
             "name": "Anil kumar",
