@@ -37,8 +37,11 @@ This package helps in accessing the images which are stored in storage directory
 - You can access that image by replacing '/' with ':'
 	`<img src="make/image/files:product:images:one.png">`
 
+- Make sure that image should have readable permissions 
+
 
 ## License
 
+Intervention Image is licensed under the [MIT License](http://opensource.org/licenses/MIT).
 
-Copyright 2015
+Copyright 2015 [Anil kumar](https://www.facebook.com/anilkumarmudiraj)
